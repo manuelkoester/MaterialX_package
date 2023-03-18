@@ -12,6 +12,6 @@ def getRecursivePackageData(root):
 
 setup(name='MaterialX',
       url='www.materialx.org',
-      version='1.38.0',
+      version='1.38.4',
       packages=['MaterialX'],
       package_data={'MaterialX' : getRecursivePackageData('MaterialX')})
